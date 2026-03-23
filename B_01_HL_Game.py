@@ -247,8 +247,6 @@ if rounds_played > 0:
     # Display the game history on request
     see_history = yes_no("Do you want to see your game history? ")
 
-    print("game history", game_history)
-
     if see_history == "yes":
 
         for item in game_history:
